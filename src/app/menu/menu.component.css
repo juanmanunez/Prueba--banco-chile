@@ -1,0 +1,95 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002464;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #002464;
+}
+
+.active {
+  background-color: #7DA549;
+}
+
+.title-banco{
+  color: white;
+  size: 20px;
+  margin-left: 1em;
+}
+
+nav{
+  background-color: #002464;
+  border-bottom: 1px solid #002464;
+  border-top: 20px solid #002464;
+}
+
+.logo_header a {
+  background: url(../img/logo-sprite.png) no-repeat scroll left top;
+  *background: url(../img/logo-sprite.png) no-repeat scroll left top;
+  display: block;
+  float: left;
+  height: 34px;
+  margin: 0 0 20px 1em;
+  text-indent: -999em;
+  width: 200px;
+}
+
+/*
+!* Codigo en sass
+ ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+  overflow: hidden
+  background-color: #002464
+
+li
+  float: left
+  a
+    display: block
+    color: white
+    text-align: center
+    padding: 14px 16px
+    text-decoration: none
+    &:hover:not(.active)
+      background-color: #002464
+
+.active
+  background-color: #7DA549
+
+.title-banco
+  color: white
+  size: 20px
+  margin-left: 1em
+
+nav
+  background-color: #002464
+  border-bottom: 1px solid #002464
+  border-top: 20px solid #002464
+
+.logo_header a
+  background: url(../img/logo-sprite.png) no-repeat scroll left top
+  *background: url(../img/logo-sprite.png) no-repeat scroll left top
+  display: block
+  float: left
+  height: 34px
+  margin: 0 0 20px 1em
+  text-indent: -999em
+  width: 200px
+ * /
+*/

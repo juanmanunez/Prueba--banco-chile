@@ -1,0 +1,180 @@
+
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #06c;
+}
+
+.tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #ccc;
+
+}
+
+.contAcuerdo {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  margin: 10px 0 0;
+  padding: 10px 4%;
+  border: 1px solid #3A8CD5;
+  cursor: pointer;
+}
+
+/*boton banco chile*/
+.btn-chile{
+  color: white!important;
+  background-color: #1B3A74;
+  border: 1px solid #1B3A74;
+  display: inline-block;
+  float: right;
+  height: 27px;
+  padding: 0 15px;
+  margin-left: 10px;
+  width: auto;
+  border-radius: 0px!important;
+}
+
+/*css tabla banco chile*/
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1B3A74;
+  color: white;
+}
+
+/*fondo de th en tabla con fondo blanco*/
+.fondobco-chile{
+  background-color: white!important;
+  color: #1B3A74;
+}
+
+/*apartado de paginador al centro*/
+.center{
+  text-align: center;
+}
+
+label{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+
+}
+
+
+/* codigo en sass
+
+.tabset
+  > input[type="radio"]
+    position: absolute
+    left: -200vw
+  .tab-panel
+    display: none
+  >
+    input
+      &:first-child:checked ~ .tab-panels > .tab-panel:first-child, &:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2), &:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3), &:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4), &:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5), &:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6)
+        display: block
+    label
+      position: relative
+      display: inline-block
+      padding: 15px 15px 25px
+      border: 1px solid transparent
+      border-bottom: 0
+      cursor: pointer
+      font-weight: 600
+      &::after
+        content: ""
+        position: absolute
+        left: 15px
+        bottom: 10px
+        width: 22px
+        height: 4px
+        background: #8d8d8d
+      &:hover
+        color: #06c
+    input:focus + label
+      color: #06c
+    label:hover::after
+      background: #06c
+    input
+      &:focus + label::after
+        background: #06c
+      &:checked + label
+        &::after
+          background: #06c
+        border-color: #ccc
+        border-bottom: 1px solid #fff
+        margin-bottom: -1px
+
+.tab-panel
+  padding: 1em 1em 1em 1em
+  border: 1px solid #ccc
+
+.contAcuerdo
+  width: 100%
+  float: left
+  background-color: #fff
+  margin: 10px 0 0
+  padding: 10px 4%
+  border: 1px solid #3A8CD5
+  cursor: pointer
+*/
