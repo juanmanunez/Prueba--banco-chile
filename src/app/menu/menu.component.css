@@ -48,6 +48,11 @@ nav{
   text-indent: -999em;
   width: 200px;
 }
+@media (max-width: 600px) {
+  .menu-none {
+    display: none;
+  }
+}
 
 /*
 !* Codigo en sass
