@@ -53,6 +53,9 @@ nav{
     display: none;
   }
 }
+.flotar-d{
+  float: right;
+}
 
 /*
 !* Codigo en sass
