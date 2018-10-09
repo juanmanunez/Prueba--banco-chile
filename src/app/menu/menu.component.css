@@ -61,7 +61,7 @@ nav{
   .node-hamb {
     display: none;
   }
-  
+
 
 }
 
@@ -78,7 +78,12 @@ nav{
   width: 90%;
   cursor: context-menu;
 }
-
+#axis:hover .move-up {
+  transform: translate(0,-350px);
+  -webkit-transform: translate(0,-350px);
+  -o-transform: translate(0,-350px);
+  -moz-transform: translate(0,-350px);
+}
 
 /*
 !* Codigo en sass
