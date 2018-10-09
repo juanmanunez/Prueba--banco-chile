@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NotifierService } from 'angular-notifier';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,4 +9,12 @@ import { Component } from '@angular/core';
 export class DashboardComponent {
   title = 'Detalle de cliente - información';
   numerotoken = '001';
+
+  private readonly notifier: NotifierService;
+
+  constructor( notifierService: NotifierService ) {
+    this.notifier = notifierService;
+  }
+
 }
+
