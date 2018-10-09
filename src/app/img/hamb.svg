@@ -6,14 +6,13 @@
 	.st0{fill:#FFFFFF;}
 </style>
 <g>
-	<rect x="8.2" y="17.6" class="st0" width="47.5" height="2.4"/>
-	<rect x="8.2" y="31.8" class="st0" width="47.5" height="2.4"/>
-	<rect x="8.2" y="46.1" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="12.6" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="26.8" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="41.1" class="st0" width="47.5" height="2.4"/>
 </g>
 <g>
-	<rect x="8.2" y="24.9" class="st0" width="47.5" height="2.4"/>
-	<rect x="8.2" y="10.9" class="st0" width="47.5" height="2.4"/>
-	<rect x="8.2" y="39.1" class="st0" width="47.5" height="2.4"/>
-	<rect x="8.2" y="53.4" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="19.9" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="34.1" class="st0" width="47.5" height="2.4"/>
+	<rect x="8.2" y="48.4" class="st0" width="47.5" height="2.4"/>
 </g>
 </svg>

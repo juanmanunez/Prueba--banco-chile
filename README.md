@@ -9,9 +9,4 @@ el cual se ocupa para grillas y clases varias.
 
 hay clases personalizadas en cada componente personalizado para banco chile.
 
-version 0.2
-
-#mejoras en  limpiesa codigo  TS  
-#Mejora de codigo y ajustes en HTLM
-#cambio de clases css en html 
-
+version 0.1
