@@ -10,6 +10,7 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { TabModule } from 'angular-tabs-component';
 import { MenuComponent } from './menu/menu.component';
 import { AppRoutingModule }     from './app-routing.module';
+import { NotifierModule } from 'angular-notifier';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AppRoutingModule }     from './app-routing.module';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    TabModule
+    TabModule,
+    NotifierModule
   ],
   declarations: [
     AppComponent,
